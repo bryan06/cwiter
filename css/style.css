@@ -1,0 +1,117 @@
+body
+{
+	width: 960px;
+	margin: 0 auto;
+	background-image:url("arriereplan.jpg");
+	overflow:auto;
+}
+
+header
+{
+	width: 280px;
+    border-radius :7px;
+	background-color: #660033;
+    margin: 10px auto 0;
+}
+
+::-webkit-input-placeholder {
+	color: black; 
+}
+
+p.titre {
+  height:8px;
+  font-size:1.1em;
+  border:2px outset ;
+ 
+  margin-top:0;
+  padding-top:0;
+  padding-bottom:20px;
+  
+}
+
+.style_input{ 
+	width:265px;
+	height:22px; 
+	font-size:15px;
+	background-color: white;
+}
+.input_name {
+	width:128px;
+	height:21px;
+	font-size:15px;
+	margin-left: 2px;
+}
+#checkbox {
+    float: left;
+    margin-left: 0;
+}
+.style_button1{
+	width: 100px;
+	height:30px;
+	background-color:#FFFFFF;
+	color: #660033;
+	border-radius :7px;
+	margin-left:0;
+    margin-top: 55px;
+}
+.style_button2{
+	width: 100px;
+	height:30px;
+	background-color:#FFFFFF;
+	color: #660033;
+	border-radius :7px;
+	margin-left:90px;
+}
+#title
+{
+	padding: 20px;
+	text-align:center;
+	color: #FFFFFF;
+	font-size: 2em;
+	margin:auto;
+	display:block;
+}
+p{
+
+	border : 2px solid grey;
+	border-radius :7px;
+}
+#connexion_container{
+	
+	float:left;
+	width: 280px;
+	height: 240px;
+	background-color: #660033;
+	border-radius :7px;
+	border:2px solid black;
+	overflow:hidden;
+    margin: 90px 90px 90px 100px;
+    line-height:40px;
+}
+#alt_connexion
+{
+	text-align:center;
+}
+
+p#buttons {
+  text-align:center;
+}
+#checkbox1{
+    position: absolute;
+    margin-left: 10px;
+}
+#inscription_container
+{
+	float:right;
+	width: 280px;
+	height: 325px;
+    margin: 90px 100px 90px 90px;
+    background-color: #660033;
+	border-radius :7px;
+	border:2px solid black;
+	line-height:35px;
+}
+#alt_inscription
+{
+	text-align:center;
+}

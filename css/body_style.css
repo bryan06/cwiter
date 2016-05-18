@@ -1,0 +1,203 @@
+/* ///////////////// Page Modif profil////////////////////////////// */
+body
+{
+	width: 1920px;
+	margin: 0 auto;
+	overflow: auto;
+	overflow-x: hidden;
+	background: #F5F5F5;
+
+}
+
+#header_bottom
+{
+	width: 100%;
+	clear: both;
+	overflow:auto;
+}
+#header
+{
+	margin:0 auto;
+
+	clear:both;
+}
+#pop_image{
+	top:0;
+	left: 0;
+	position: fixed;
+	width: 100%;
+	height: 120%;
+	background-color: rgba(0,0,0,0.5);
+	display: none;
+}
+.pop_couv{
+	width: 550px;
+	margin: 50px auto;
+	text-align: left;
+}
+.pop_content{
+	background-color: #FFF;
+	padding: 15px;
+}
+#info_user
+{
+	width: 20%;
+	position: absolute;
+	bottom: 400px;
+	left: 1000px;
+	float:right;
+	margin-right: 45%;
+	vertical-align: top;
+	display: block;
+	clear: both;
+	overflow: auto;
+}
+
+#photo_profile
+{
+	margin-left: 95px;
+	border-radius: 7px;
+	background-color: #dcdcdc;
+	width: 200px;
+	height:25px;
+	margin-top: 10px;
+}
+#edit_info
+{
+	float: right;
+	vertical-align: top;
+	margin-right: 58%;
+}
+#alt_info
+{
+	text-align: right;
+}
+.style_button
+{
+	width: 125px;
+	height:25px;
+	display:inline-block;
+	margin-right: 15%;
+	border-radius :5px;
+	background-color:#d3d3d3;
+	border:1px solid #000000;
+}
+::-webkit-input-placeholder {
+	color: #000000;
+}
+.input_name {
+	width:200px;
+	height:20px;
+	font-size:15px;
+	border : 2px solid black;
+}
+#menu
+{
+	clear: both;
+}
+#menu ul
+{
+	float: left;
+	padding-left: 0;
+	margin-left: 5%;
+	width: 10%;
+	border-radius: 5%;
+    box-shadow: 5px 5px 9px 0 #656565;
+    border: 1px solid black;
+}
+#menu li
+{
+	text-align: left;
+	padding:10% 10%;
+	list-style-type: none;
+	border: 0.1em solid;
+	background-color: #FFFFFF;
+}
+.fileinput{
+    margin-left: 1em;
+    background-color: #656565;
+    width: 0.5px;
+    height: 0.5px;
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+.fileinput:focus{
+
+    outline: 1px dotted #000;
+    outline: -webkit-focus-ring-color auto 5px;
+}
+
+.pop_couv
+{
+    text-align: center;
+
+
+}
+.pop_image{
+word-spacing: 20px;
+
+}
+.pop_content{
+    background-color: #e5eeff;
+        border-radius: 20px;
+    border: 20px #000;
+    height: 20em;
+}
+
+/*/////////////////////////////////Page Timeline////////////////////////////////// */
+
+a
+{
+	/*margin-left:150px;*/
+}
+
+#alt_actualite
+{
+	margin-left:25%;
+}
+#alt_actualite h1
+{
+    margin-left:18%;
+    vertical-align: top;
+}
+
+textarea::-webkit-input-placeholder {
+    color: #808080;
+    line-height: 90px;
+}
+.positionImage{
+    float: left;
+    vertical-align: top;
+    margin-right: 10px;
+}
+em{
+	margin-top: 0;
+	margin-left: 16%;
+	font-weight: bold;
+    display: inline-block;
+
+}
+h2{
+   float: left;
+
+    margin-top: 0;
+    margin-left:6px;
+    display: inline-block;
+}
+.input_titre{
+    margin-top: 20px;
+    display: block;
+    vertical-align: middle;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    text-shadow: 0 0 10px #660033;
+}
+
+#contentactualite p{
+    margin-left: 20px;
+}

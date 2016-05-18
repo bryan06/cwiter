@@ -1,0 +1,95 @@
+html
+{
+    width: 1920px;
+    margin: 0 auto;
+}
+body
+{
+	width: 1920px;
+	margin: 0 auto;
+}
+
+#header
+{
+	width:1920px;
+	overflow: auto;
+	margin: 0 auto;
+
+}
+#header#header_bottom #photo img
+{
+	height: 100px;
+	width: 100px;
+    margin-right: 20px;
+    border:1px solid black;
+	flow-into: left;
+}
+
+#header ul
+{
+	padding-top: 2%;
+	width: 70%;
+	overflow: auto;
+	margin: 0 auto;
+	padding-left: 12%;
+	margin-top: 0px;
+
+}
+#header li
+{
+	text-align: center;
+	list-style: none;
+	width: 12%;
+	margin: 0;
+	float: left;
+	background-color: #E4E6E6;
+    border: 2px solid;
+
+}
+#header ul li a
+{
+
+margin: 0;
+
+}
+#header_bottom
+{
+	width: 100%;
+	clear: both;
+	overflow:auto;
+}
+#header_bottom #photo, #header_bottom #user_name
+{
+    padding-left: 5%;
+    width: 13%;
+    float:left;
+}
+
+#header_bottom  #photo
+{
+    padding-left: 5%;
+    width: 13%;
+}
+#header_bottom #user_name
+{
+    padding-left: 0;
+    margin-top: 1%;
+    width: 35%;
+    font-size: 200%;
+}
+#search
+{
+	width: auto;
+	margin-left: 25%;
+}
+.input_search{
+	border : 2px solid black;
+	color: #708090;
+}
+.button_search{
+	background-color:#d3d3d3;
+	border:1px solid #000000;
+    border-radius :5px;
+    width: 125px;
+    height:20px;
+}
